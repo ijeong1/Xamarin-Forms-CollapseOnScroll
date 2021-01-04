@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollapseOnScroll.MainPage"
+             xmlns:controls="clr-namespace:CollapseOnScroll.Controls"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True">
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0"
+              x:Name="DashboardBarGrid"
+              BackgroundColor="#263A43"
+              RowSpacing="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0"
+                  HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <Label Text="Title" TextColor="White"/>
+            </Grid>
+
+        </Grid>
+         <controls:CustomListView Grid.Row="1" ItemsSource="{Binding Items}" Scrolled="listView_Scrolled" IsPullToRefreshEnabled="False"/>
+     </Grid>
+
+</ContentPage>

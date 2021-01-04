@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{E8770E25-3BEB-4CF2-B926-2BD2B64CCF54}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CollapseOnScroll" expanded="True">
+            <Node name="CollapseOnScroll" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="CollapseOnScroll.iOS" expanded="True">
+              <Node name="Renderers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CollapseOnScroll.Android TriggeredFromHotReload="False" PreferredExecutionTarget="Android.pixel_3a_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CollapseOnScroll.iOS TriggeredFromHotReload="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8DAA6CCB-407B-49D9-8454-5D4619E8FF3E" />
+</Properties>
