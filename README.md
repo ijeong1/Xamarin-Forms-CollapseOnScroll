@@ -6,7 +6,10 @@
 # Running on Android
 ![iOS](https://github.com/ijeong1/Xamarin-Forms-CollapseOnScroll/blob/main/android.gif)
 
-# I used a CustomRenderer to disable Bounce on iOS. Check out the CustomListViewRendere class in the Renderer folder in CollapseOnScroll.iOS.
-# You don't need to add anything to CollapseOnScroll.Android
+# iOS
+I used a CustomRenderer to disable Bounce on iOS. Check out the CustomListViewRendere class in the Renderer folder in CollapseOnScroll.iOS.
+
+# Android
+You don't need to add anything to CollapseOnScroll.Android
 
 # ToDo : Implement to hide the actual Navigation Bar not a fake grid element.
