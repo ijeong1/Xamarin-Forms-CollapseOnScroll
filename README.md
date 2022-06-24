@@ -10,7 +10,7 @@
 I used a CustomRenderer to disable Bounce on iOS. Check out the CustomListViewRendere class in the Renderer folder in CollapseOnScroll.iOS.
 
 # Android
-There is no additional custom renderer is nedded for CollapseOnScroll.Android
+There is no additional custom renderer is required for CollapseOnScroll.Android
 
 # ToDo
 - Implement to hide the actual Navigation Bar not a fake grid element.
